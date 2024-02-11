@@ -16,3 +16,17 @@ Pour utiliser ce projet, suivez les étapes suivantes :
 **Configuration du Générateur:** Configurez les paramètres du générateur selon vos besoins, tels que la taille de l'image en entrée, le nombre de couches, etc.
 
 **Entraînement du Générateur:** Entraînez le générateur en utilisant le dataset préparé. Surveillez les métriques d'entraînement telles que la perte du générateur et du discriminateur.
+
+## **GAN Project for Histology**
+This project aims to improve skills in creating Generative Adversarial Networks (GANs) for medical histology. The objective is to develop a data generator that can produce realistic histological images from a limited dataset. This approach is particularly relevant for generating histological images of rare diseases where the datasets are often limited.
+
+## Features
+Creation of Dataset from Histological Slides: The code provides tools to create a dataset from histological slides. This allows for the collection of data necessary for training the generator.
+Training a Data Generator: The project includes features for training a data generator using the GAN architecture. The generator is capable of producing realistic histological images from the created dataset.
+
+## Usage
+**Creating the Dataset:** Use the provided tools to create a dataset from histological slides.
+
+**Configuring the Generator:** Configure the generator parameters according to your needs, such as the size of the input image, number of layers, etc.
+
+**Training the Generator:** Train the generator using the prepared dataset. Monitor training metrics such as the generator and discriminator loss.
