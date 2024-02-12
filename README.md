@@ -30,3 +30,10 @@ Training a Data Generator: The project includes features for training a data gen
 **Configuring the Generator:** Configure the generator parameters according to your needs, such as the size of the input image, number of layers, etc.
 
 **Training the Generator:** Train the generator using the prepared dataset. Monitor training metrics such as the generator and discriminator loss.
+
+## Results: 
+
+The results of a very small WGAN-GP on resized images from 128x128 to 64x64 pixels, can be found in this folder.
+
+this is a exemple after 90 epoch: 
+
