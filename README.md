@@ -16,9 +16,21 @@ Pour utiliser ce projet, suivez les étapes suivantes :
 **Configuration du Générateur:** Configurez les paramètres du générateur selon vos besoins, tels que la taille de l'image en entrée, le nombre de couches, etc.
 
 **Entraînement du Générateur:** Entraînez le générateur en utilisant le dataset préparé. Surveillez les métriques d'entraînement telles que la perte du générateur et du discriminateur.
+Résultats :
+Les résultats d'un très petit WGAN-GP sur des images redimensionnées de 128x128 à 64x64 pixels peuvent être trouvés dans ce [dossier](https://github.com/H-Gelender/GAN_Histology/tree/main/gen_images)..
+
+Voici des exemples d'images générées après 98 epochs :
+
+![Alt epoch_98](https://github.com/H-Gelender/GAN_Histology/blob/main/gen_images/epoch_98.jpg)
+
+Voici des échantillons de tissus réels :
+
+![Alt](https://github.com/H-Gelender/GAN_Histology/blob/main/real_breast_tissue_images.png)
+
+Ces résultats sont encore irréalistes, mais vous pouvez ajouter des couches plus complexes.
 
 ## **GAN Project for Histology**
-This project aims to improve skills in creating Generative Adversarial Networks (GANs) for medical histology. The objective is to develop a data generator that can produce realistic histological images from a limited dataset. This approach is particularly relevant for generating histological images of rare diseases where the datasets are often limited.
+This project aims to improve skills in creating Generative Adversarial Networks (GANs) for medical histology. The objective is to develop a data generator to produce realistic histological images from a limited dataset. This approach is particularly relevant for generating histological images of rare diseases where the datasets are often limited.
 
 ## Features
 Creation of Dataset from Histological Slides: The code provides tools to create a dataset from histological slides. This allows for the collection of data necessary for training the generator.
@@ -33,7 +45,14 @@ Training a Data Generator: The project includes features for training a data gen
 
 ## Results: 
 
-The results of a very small WGAN-GP on resized images from 128x128 to 64x64 pixels, can be found in this folder.
+The results of a very small WGAN-GP on resized images from 128x128 to 64x64 pixels can be found in this [folder](https://github.com/H-Gelender/GAN_Histology/tree/main/gen_images).
 
-this is a exemple after 90 epoch: 
+These are examples of generated images after 98 epochs: 
 
+![Alt epoch_98](https://github.com/H-Gelender/GAN_Histology/blob/main/gen_images/epoch_98.jpg)
+
+These are real tissue samples:
+
+![Alt](https://github.com/H-Gelender/GAN_Histology/blob/main/real_breast_tissue_images.png)
+
+These results are still unrealistic, but you can add more complex layers.
