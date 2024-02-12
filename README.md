@@ -1,4 +1,4 @@
-# GAN_Histology
+# WGAN_GP-Histology
 
 ## **Projet GAN pour l'Histologie**
 Ce projet vise à perfectionner les compétences dans la création de Réseaux Antagonistes Génératifs (GANs) pour l'histologie médicale. L'objectif est de développer un générateur de données capable de produire des images histologiques à partir d'un ensemble de données limité. Cette approche est particulièrement pertinente pour la génération d'images histologiques de maladies rares où les ensembles de données sont souvent limités.
