@@ -27,7 +27,7 @@ Voici des échantillons de tissus réels :
 
 ![Alt](https://github.com/H-Gelender/GAN_Histology/blob/main/real_breast_tissue_images.png)
 
-Ces résultats sont encore irréalistes, mais vous pouvez ajouter des couches plus complexes, et augementer le nombre d'epoch.
+Ces résultats sont encore irréalistes, mais vous pouvez ajouter des couches plus complexes, et augementer le nombre d'epochs.
 
 ## **GAN Project for Histology**
 This project aims to improve skills in creating Generative Adversarial Networks (GANs) for medical histology. The objective is to develop a data generator to produce realistic histological images from a limited dataset. This approach is particularly relevant for generating histological images of rare diseases where the datasets are often limited.
