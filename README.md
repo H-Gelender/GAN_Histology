@@ -6,7 +6,7 @@ Ce projet vise à perfectionner les compétences dans la création de Réseaux A
 ## Fonctionnalités
 Création de Dataset à partir de Lames Histologiques: Le code propose des outils pour créer un dataset à partir de lames histologiques. Cela permet de rassembler les données nécessaires à l'entraînement du générateur.
 
-**Entraînement d'un Générateur de Données:** Le projet comprend des fonctionnalités pour entraîner un générateur de données utilisant l'architecture GAN. Le générateur est capable de produire des images histologiques réalistes à partir du dataset créé.
+**Entraînement d'un Générateur de Données:** Le projet comprend des fonctionnalités pour entraîner un générateur de données utilisant l'architecture GAN. Le générateur est capable de produire des images histologiques à partir du dataset créé.
 
 ## Utilisation
 Pour utiliser ce projet, suivez les étapes suivantes :
@@ -27,7 +27,7 @@ Voici des échantillons de tissus réels :
 
 ![Alt](https://github.com/H-Gelender/GAN_Histology/blob/main/real_breast_tissue_images.png)
 
-Ces résultats sont encore irréalistes, mais vous pouvez ajouter des couches plus complexes.
+Ces résultats sont encore irréalistes, mais vous pouvez ajouter des couches plus complexes, et augementer le nombre d'epoch.
 
 ## **GAN Project for Histology**
 This project aims to improve skills in creating Generative Adversarial Networks (GANs) for medical histology. The objective is to develop a data generator to produce realistic histological images from a limited dataset. This approach is particularly relevant for generating histological images of rare diseases where the datasets are often limited.
@@ -55,4 +55,4 @@ These are real tissue samples:
 
 ![Alt](https://github.com/H-Gelender/GAN_Histology/blob/main/real_breast_tissue_images.png)
 
-These results are still unrealistic, but you can add more complex layers.
+These results are still unrealistic, but you can add more complex layers and increase the number of epochs.
